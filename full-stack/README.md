@@ -1,21 +1,21 @@
 # Full-stack Tech Test
 
-## What are we looking for?
-
-This is the most important requirement: a project that's easy for me to start up and add a feature.
-I may want to use a different endpoint, add a page, or change the designs.
-Could I show your project to a junior developer and have them developing on your project in less than a few minutes?
-
 ## The Project:
 
-A node radio
+A node radio that is controlled via a web interface.
 
-## We need:
+## Minimum Requirements
 
 - an API server that controls a local process
 - a frontend to control and display the state
 
-## Notes:
+## What are we looking for?
+
+- A project that's easy to start up and add a feature.
+- Could I use a different endpoint, add a page, or change the designs quickly without having to ask you to show me how?
+- Could I show your project to a junior developer and have them developing on your project in less than a few minutes?
+
+## Notes
 
 - I should be able to open two tabs and have them both update accordingly.
 - I want a single play/stop button that reflects the server state.
