@@ -24,7 +24,7 @@ A node radio
 - Use [Water.css](https://github.com/kognise/water.css) - any other CSS needs to be handwritten.
 - Any JS library or framework (Next.js, Nuxt.js, React, Vue, express, koa, micro, etc).
 - Setup and linters, Readme's, formatters, any tooling etc thats required.
-- Ideally I should not have to install anything globally to get this running. (besides vlc)
+- I should not have to install anything globally to get this running. (besides vlc)
 - Structure the project as you see fit - you can do one or two repos, I'm not particular.
 - Put it up in [Github](github.com/olmesm) or [Gitlab](gitlab.com/olmesm) and **add me as an Admin**.
 - Try commit per feature - not an issue if you don't, but it's great to see a timeline.
