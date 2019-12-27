@@ -26,7 +26,7 @@ A node radio
 - Setup and linters, Readme's, formatters, any tooling etc thats required.
 - I should not have to install anything globally to get this running. (besides vlc)
 - Structure the project as you see fit - you can do one or two repos, I'm not particular.
-- Put it up in Github or Gitlab and **add me as an Admin** [Github/olmesm](github.com/olmesm) / [Gitlab/olmesm](gitlab.com/olmesm).
+- Put it up in Github or Gitlab and **add me as an Admin** [Github/olmesm](https://github.com/olmesm) / [Gitlab/olmesm](https://gitlab.com/olmesm).
 - Try commit per feature - not an issue if you don't, but it's great to see a timeline.
 - No references to Radically Digital please as this may be used in another test.
 - This should take around an hour, so any longer than that - finish off what you're doing and we’ll talk through what’s been done and where you’d go from there.
