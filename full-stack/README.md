@@ -2,46 +2,53 @@
 
 ## The Project
 
-A node radio that is controlled via a web interface.
+Our client "SoNotSonos" (bonus points for a cheesier name) has developed a new music device for the home. You've been tasked with getting the base project up and running.
 
-## Minimum Requirements
+Currently they've only got two music streams, but they do have plans for the future to offer more. See [Resources](#resources) for the table of streams.
 
-- an API server that controls a local process
-- a frontend to control and display the state
+<div style="text-align: center">
+    <img src="./images/boombox.jpg" width="640">
+</div>
 
-## What are we looking for?
+## What's the client looking for?
 
-- A project that's easy to start up locally and get a feature to production.
-- Could I use a different endpoint, add a page, or change the designs quickly without having to ask you to show me how?
-- Could I show your project to a junior developer and have them developing on your project in less than a few minutes?
+- A nodejs API service that controls a process on this new device.
+- A web app to control and display the state of the process on the device.
+- Your selection of modern and **desirable** frameworks for [frontend] and [backend].
+- This service should be controllable from any device on the local network. ie I should be able to open two tabs and have them both update.
+- Play/Pause should reflect the state of the player.
+- The web app needs to show the stream and image that is currently playing on the service - either use 500ms polling or websockets.
+- Use [Water.css] for the web app - any other CSS needs to be handwritten. They're not worried about the looks of it.
+- Complete setup of linters, Readme's, formatters, any tooling etc thats required.
+- Audio playback is controlled via [spawning a node child process] feel free to use an npm library but the standard node lib does work.
+- You do not need to reflect the output of the process - only the state and selected stream.
+- Please test the command before starting:
+
+  ```sh
+  # VLC media player needs to be installed
+
+  vlc http://listen.181fm.com/181-eagle_128k.mp3
+  ```
+
+  If you can't run the above, a loop-while-true shell script printing out the stream name is an acceptable alternative.
 
 ## Notes
 
-- I should be able to open two tabs and have them both update accordingly.
-- I want a single play/stop button that reflects the server state.
-- I may want to be able to select a different station (not an immediate requirement).
-- I need to know if and what is currently playing - either use 500ms polling or websockets. (The given command is Eagle Rock fm - feel free to find another if you have other preferences <http://www.181.fm/>)
-- Use [Water.css](https://github.com/kognise/water.css) - any other CSS needs to be handwritten.
-- Any JS library or framework (Next.js, Nuxt.js, React, Vue, express, koa, micro, etc).
-- Setup and linters, Readme's, formatters, any tooling etc thats required.
-- I should not have to install anything globally to get this running. (besides vlc)
-- Structure the project as you see fit - you can do one or two repos, I'm not particular.
-- Put it up in Github or Gitlab and **add me as an Admin** [Github/olmesm](https://github.com/olmesm) / [Gitlab/olmesm](https://gitlab.com/olmesm).
-- Try commit per feature - not an issue if you don't, but it's great to see a timeline.
-- No references to Radically Digital please as this may be used in another test.
-- This should take around an hour, so any longer than that - finish off what you're doing and we’ll talk through what’s been done and where you’d go from there.
-- Prioritise your time - deliver the most value you can within the time.
+[Please see the main readme](../README.md)
 
-**Command:**
-You'll need VLC media player installed to run the following command;
+## Resources
 
-```sh
-vlc http://listen.181fm.com/181-eagle_128k.mp3
-```
+- Images for the streams in [./assets](./assets)
+- Streams:
 
-**Please test the command first before starting - this will need to be run on a mac or linux machine.**
+  | Stream Name         | Stream Image               | URL                                             |
+  | ------------------- | -------------------------- | ----------------------------------------------- |
+  | The Eagle (Classic) | ./assets/eagle-classic.jpg | http://listen.181fm.com/181-eagle_128k.mp3      |
+  | Awesome 80's        | ./assets/awesome-80s.jpg   | http://listen.181fm.com/181-awesome80s_128k.mp3 |
 
-**Hint:** You'll need to spawn a node child process
-https://nodejs.org/api/child_process.html#child_process_child_process_spawn_command_args_options
+<!-- MARKDOWN REFERENCES -->
 
-Enjoy and feel free to send me a message if you get stuck with anything or have any questions (especially process control) - we're not here to trip you up but start a team-orientated technical conversation.
+[frontend]: https://2019.stateofjs.com/front-end-frameworks/
+[backend]: https://2019.stateofjs.com/back-end/
+[spawning a node child process]: https://nodejs.org/api/child_process.html#child_process_child_process_spawn_command_args_options
+[water.css]: https://github.com/kognise/water.css

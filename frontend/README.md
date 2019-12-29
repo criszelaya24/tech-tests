@@ -2,7 +2,7 @@
 
 ## The Project
 
-An online media company "Radio 2000" (bonus points for a cheesier name) is going through a rebrand. You've been tasked with getting a proof of concept up and running to display to the client.
+An online media company "Radio 2000" (bonus points for a cheesier name) is going through a rebrand. You've been tasked with getting the base project up and running.
 
 They're not worried about the looks of the web app, but they've raised concerns that they've lost their tech capability and don't have a list of radio urls to hand.
 
@@ -14,7 +14,6 @@ They're not worried about the looks of the web app, but they've raised concerns 
 
 - A web app using a [modern and **desirable** frontend framework].
 - Complete setup of linters, Readme's, formatters, any tooling etc thats required.
-- Nothing installed globally to develop or run this web app.
 - Reverse engineering skills to get the URL's for the radio stations <http://www.181.fm>.
 - Deployed to either [github pages], [gitlab pages] or [surge.sh] (**Hint:** Surge is the easiest to get a site live, but gitlab is easiest to [setup a build pipeline in under two minutes]).
 - A dynamic station list. Treat it as an API - it must not be hard coded in the app. Please serve it with your static assets and fetch it with an http request when opening the app.
@@ -22,25 +21,13 @@ They're not worried about the looks of the web app, but they've raised concerns 
 - Responsive and usable on both mobile and desktop.
 - An [HTML5 `<audio />` element] for playing the music - do not use a library. See docs on [HTMLMediaElement methods] here.
 - They're not too worried about performance optimizations (images, bundling, etc).
+- The next/back buttons go to the next station in the list. You can decide if you want to loop or disable the next/back button when reaching the end of the list.
+- Play/Pause should reflect the state of the player.
+- The relevant station image and name must be displayed.
 
 ## What are we looking for?
 
-- A project that's easy to start up locally and get a change to production with minimal effort.
-- Could I use a different endpoint, add a page, or change the designs quickly without having to ask you to show me how?
-- Could I show your project to a junior developer and have them developing on your project in less than a few minutes?
-
-## Notes
-
-- All the included static assets can be changed or restructured as you require. (eg if you need to change the directory names or JSON structure - go for it)
-- The product doesn't have to be match the example, it just needs the same controls and to be presentable.
-- We like our products to be accessible, but just semantic and well structured HTML is perfect for the purpose of this exercise.
-- Put it up in Github or Gitlab and **add me as a collaborator or developer respectively** [Github/olmesm](https://github.com/olmesm) / [Gitlab/olmesm](https://gitlab.com/olmesm).
-- Try commit per feature - not an issue if you don't, but it's great to see a timeline.
-- No references to Radically Digital please as this may be used in another test.
-- This should take around an hour, so any longer than that - finish off what you're doing and we’ll talk through what’s been done and where you’d go from there.
-- Prioritise your time - deliver the most value you can within the time.
-
-Enjoy and feel free to send me a message if you get stuck with anything or have any questions - we're not here to trip you up but start a team-orientated technical conversation.
+[Please see the main readme](../README.md)
 
 ## Resources
 
