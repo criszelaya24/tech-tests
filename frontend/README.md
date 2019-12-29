@@ -21,6 +21,7 @@ They're not worried about the looks of the web app, but they've raised concerns 
 - No CSS frameworks please. The use of CSS tooling (Normalizer, SASS/SCSS, linters, CSS Modules, Styled Components, etc) is perfect though.
 - Responsive and usable on both mobile and desktop.
 - An [HTML5 `<audio />` element] for playing the music - do not use a library. See docs on [HTMLMediaElement methods] here.
+- They're not too worried about performance optimizations (images, bundling, etc).
 
 ## What are we looking for?
 
@@ -60,14 +61,13 @@ Enjoy and feel free to send me a message if you get stuck with anything or have 
 
   ```css
   .background-radial {
-      background: rgb(48, 48, 48);
-      background: radial-gradient(
+    background: rgb(48, 48, 48);
+    background: radial-gradient(
       circle,
       rgba(48, 48, 48, 1) 0%,
       rgba(64, 64, 64, 1) 33%,
       rgba(48, 48, 48, 1) 100%
-      );
-  }
+    );
   }
   ```
 
