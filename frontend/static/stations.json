@@ -1,0 +1,32 @@
+[
+  {
+    "name": "Yacht Rock",
+    "image": "/assets/yacht-rock.jpg",
+    "url": "<YOU'LL NEED TO FIND THIS - http://www.181.fm>"
+  },
+  {
+    "name": "The Eagle (Classic)",
+    "image": "/assets/eagle-classic.jpg",
+    "url": "<YOU'LL NEED TO FIND THIS - http://www.181.fm>"
+  },
+  {
+    "name": "Awesome 80's",
+    "image": "/assets/awesome-80s.jpg",
+    "url": "<YOU'LL NEED TO FIND THIS - http://www.181.fm>"
+  },
+  {
+    "name": "The Mix",
+    "image": "/assets/the-mix.jpg",
+    "url": "<YOU'LL NEED TO FIND THIS - http://www.181.fm>"
+  },
+  {
+    "name": "Old School HipHop/RnB",
+    "image": "/assets/old-school.jpg",
+    "url": "<YOU'LL NEED TO FIND THIS - http://www.181.fm>"
+  },
+  {
+    "name": "Jazz Mix",
+    "image": "/assets/jazz-mix.jpg",
+    "url": "<YOU'LL NEED TO FIND THIS - http://www.181.fm>"
+  }
+]

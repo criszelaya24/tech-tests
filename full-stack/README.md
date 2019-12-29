@@ -1,6 +1,6 @@
 # Full-stack Tech Test
 
-## The Project:
+## The Project
 
 A node radio that is controlled via a web interface.
 
@@ -11,7 +11,7 @@ A node radio that is controlled via a web interface.
 
 ## What are we looking for?
 
-- A project that's easy to start up and add a feature.
+- A project that's easy to start up locally and get a feature to production.
 - Could I use a different endpoint, add a page, or change the designs quickly without having to ask you to show me how?
 - Could I show your project to a junior developer and have them developing on your project in less than a few minutes?
 
