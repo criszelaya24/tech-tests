@@ -10,6 +10,8 @@ They're not worried about the looks of the web app, but they've raised concerns 
     <img src="./images/localhost_3000_iPhone.png" width="375">
 </div>
 
+Feel free to either setup a project from new or use the vue or react files found in [pre-setup](pre-setup)
+
 ## What's the client looking for?
 
 - A web app using a [modern and **desirable** frontend framework].
