@@ -1,6 +1,6 @@
 import "https://unpkg.com/vue@latest/dist/vue.js";
 
-const app = {
+const App = {
   template: `
     <div>
       <button @click.prevent="incrementCounter">
@@ -23,7 +23,5 @@ const app = {
 
 new Vue({
   el: "#root",
-  components: {
-    app,
-  },
+  render: (h) => h(App),
 });
